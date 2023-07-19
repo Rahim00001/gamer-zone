@@ -145,5 +145,18 @@ body {
 /* responsive styles for mobile end */
 
 /* responsive styles for tablet */
-
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 30px;
+  }
+  .banner-container {
+    margin: 20px 30px;
+  }
+  .banner-right img {
+    max-width: 380px;
+  }
+}
 /* responsive styles for tablet end */
