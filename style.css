@@ -9,6 +9,7 @@ body {
   color: #0b0223;
   font-size: 3rem;
   font-weight: 700;
+  margin-top: 50px;
 }
 .pink-heading {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
@@ -143,6 +144,12 @@ body {
   max-width: 290px;
   max-height: 350px;
 }
+.game-desc {
+    color: #534c64;
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+
 /* online games section end */
 
 /* responsive styles for mobile */
@@ -150,17 +157,20 @@ body {
   .nav-container,
   .nav-left,
   .nav-right,
-  .nav-item {
+  .nav-item,
+  .online-games {
     flex-direction: column;
   }
   .nav-container {
     padding-top: 50px;
   }
-  .nav-right {
+  .nav-right,
+  .online-games-container {
     margin-top: 30px;
   }
   .nav-btn {
     width: max-content;
+    margin-bottom: 40px;
   }
   .banner-container {
     flex-direction: column-reverse;
@@ -175,22 +185,26 @@ body {
   .banner-left {
     padding: 20px;
   }
-}
+  .section-heading, .section-desc {
+    width: 400px;
+    text-align: center;
+  }
+  
 /* responsive styles for mobile end */
 
 /* responsive styles for tablet */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .nav-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding: 10px 30px;
+    .nav-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding: 10px 30px;
+    }
+    .banner-container {
+      margin: 20px 30px;
+    }
+    .banner-right img {
+      max-width: 380px;
+    }
   }
-  .banner-container {
-    margin: 20px 30px;
-  }
-  .banner-right img {
-    max-width: 380px;
-  }
-}
 /* responsive styles for tablet end */
