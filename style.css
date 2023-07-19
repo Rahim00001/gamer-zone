@@ -62,6 +62,9 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
 }
+.nav-item li a:hover {
+  color: #0b0223;
+}
 .nav-btn {
   display: flex;
   gap: 10px;
@@ -72,6 +75,9 @@ body {
   background: rgba(11, 2, 35, 0.1);
   border: none;
   border-radius: 8px;
+}
+.nav-btn:hover {
+  color: #f948b2;
 }
 /* navbar section end */
 
@@ -122,9 +128,13 @@ body {
   border: none;
   border-radius: 46px;
   background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  transition: 0.3s ease;
 }
 .blue-btn {
   background: #4ec5f7;
+}
+.pink-btn:hover {
+  color: #534c64;
 }
 /* banner section end */
 
