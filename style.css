@@ -5,6 +5,22 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
+.section-heading {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.pink-heading {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-desc {
+  color: #534c64;
+  font-size: 1.2rem;
+  line-height: 30px;
+}
 /* navbar section */
 .nav-container {
   display: flex;
@@ -110,6 +126,24 @@ body {
   background: #4ec5f7;
 }
 /* banner section end */
+
+/* online games section */
+.online-games-container {
+  margin: 20px 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.online-games {
+  display: flex;
+  gap: 15px;
+  margin-top: 50px;
+}
+.game-img {
+  max-width: 290px;
+  max-height: 350px;
+}
+/* online games section end */
 
 /* responsive styles for mobile */
 @media screen and (max-width: 576px) {
