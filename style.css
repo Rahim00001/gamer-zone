@@ -151,6 +151,22 @@ body {
   line-height: 30px;
 }
 
+/* play instant section */
+.play-instant-container {
+  display: flex;
+  margin: 70px 180px;
+  gap: 300px;
+}
+.play-instant-left {
+  padding-top: 60px;
+}
+.play-instant-img2 {
+  position: relative;
+  bottom: 300px;
+  right: 150px;
+}
+/* play instant section end */
+
 /* online games section end */
 
 /* responsive styles for mobile */
