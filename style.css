@@ -308,7 +308,7 @@ footer {
   }
   .play-instant-right .play-instant-img2 {
     max-width: 150px;
-    bottom: 100px;
+    bottom: 120px;
     right: 50px;
   }
   .more-games-container {
@@ -334,6 +334,22 @@ footer {
   .game-icon {
     width: 30px;
     height: 30px;
+  }
+  .footer-items .footer-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 18px;
+  }
+  .social-container {
+    width: 300px;
+    gap: 50px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .some-links {
+    flex-wrap: wrap;
+    width: 400px;
+    margin: 0 auto;
   }
 }
 /* responsive styles for mobile end */
