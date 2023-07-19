@@ -110,3 +110,40 @@ body {
   background: #4ec5f7;
 }
 /* banner section end */
+
+/* responsive styles for mobile */
+@media screen and (max-width: 576px) {
+  .nav-container,
+  .nav-left,
+  .nav-right,
+  .nav-item {
+    flex-direction: column;
+  }
+  .nav-container {
+    padding-top: 50px;
+  }
+  .nav-right {
+    margin-top: 30px;
+  }
+  .nav-btn {
+    width: max-content;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .banner-right img {
+    max-width: 380px;
+  }
+  .banner-play {
+    width: max-content;
+  }
+  .banner-left {
+    padding: 20px;
+  }
+}
+/* responsive styles for mobile end */
+
+/* responsive styles for tablet */
+
+/* responsive styles for tablet end */
