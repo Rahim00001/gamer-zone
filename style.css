@@ -155,10 +155,11 @@ body {
 .play-instant-container {
   display: flex;
   margin: 70px 180px;
-  gap: 300px;
+  gap: 250px;
 }
 .play-instant-left {
   padding-top: 60px;
+  text-align: justify;
 }
 .play-instant-img2 {
   position: relative;
@@ -175,15 +176,17 @@ body {
   .nav-left,
   .nav-right,
   .nav-item,
-  .online-games {
+  .online-games,
+  .play-instant-container {
     flex-direction: column;
   }
   .nav-container {
     padding-top: 50px;
   }
   .nav-right,
-  .online-games-container {
-    margin-top: 30px;
+  .online-games-container,
+  .play-instant-right {
+    margin-top: 30px auto;
   }
   .nav-btn {
     width: max-content;
@@ -207,12 +210,30 @@ body {
     width: 400px;
     text-align: center;
   }
+  .play-instant-container {
+    gap: 50px;
+    align-items: center;
+    margin: 30px;
+    padding: 0;
+  }
+  .play-instant-right {
+    padding-left: 60px;
+  }
+  .play-instant-right .play-instant-img1 {
+    max-width: 300px;
+  }
+  .play-instant-right .play-instant-img2 {
+    max-width: 150px;
+    bottom: 100px;
+    right: 50px;
+  }
 }
 /* responsive styles for mobile end */
 
 /* responsive styles for tablet */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .nav-container {
+  .nav-container,
+  .play-instant-container {
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -229,6 +250,14 @@ body {
     flex-wrap: wrap;
     margin: auto;
     padding-top: 20px;
+  }
+  .play-instant-img1 {
+    max-width: 450px;
+  }
+  .play-instant-img2 {
+    max-width: 220px;
+    bottom: 160px;
+    right: 80px;
   }
 }
 /* responsive styles for tablet end */
