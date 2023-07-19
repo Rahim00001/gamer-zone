@@ -26,7 +26,7 @@ body {
 .nav-container {
   display: flex;
   justify-content: space-between;
-  padding: 10px 180px;
+  padding: 10px 170px;
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
@@ -150,6 +150,7 @@ body {
   font-size: 1.1rem;
   line-height: 30px;
 }
+/* online games section end */
 
 /* play instant section */
 .play-instant-container {
@@ -192,7 +193,7 @@ body {
   color: #0b0223;
   font-size: 1.1rem;
   font-weight: 600;
-  border: none;
+  border: 2px solid transparent;
   border-radius: 50px;
   background: #fff;
   transition: 0.1s ease;
@@ -203,7 +204,52 @@ body {
 }
 /* more games section end */
 
-/* online games section end */
+/* footer section */
+footer {
+  background: #0b0223;
+  margin-top: 40px;
+}
+.footer-top {
+  color: #fff;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  padding: 30px;
+  cursor: pointer;
+}
+.footer-items .footer-item {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+.footer-item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+}
+.social-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  cursor: pointer;
+}
+.some-links {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.some-links a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.last-line {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 50px;
+}
+/* footer section end */
 
 /* responsive styles for mobile */
 @media screen and (max-width: 576px) {
