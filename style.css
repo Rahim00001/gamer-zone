@@ -161,12 +161,47 @@ body {
   padding-top: 60px;
   text-align: justify;
 }
+.play-instant-img1 {
+  position: relative;
+}
 .play-instant-img2 {
   position: relative;
   bottom: 300px;
   right: 150px;
 }
 /* play instant section end */
+
+/* more games section */
+.more-games-container {
+  text-align: center;
+  margin: 0 150px;
+  margin-top: -300px;
+}
+.more-games {
+  display: flex;
+  margin: 30px auto;
+  justify-content: center;
+  gap: 30px 20px;
+  flex-wrap: wrap;
+}
+.games {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+  align-items: center;
+  color: #0b0223;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  background: #fff;
+  transition: 0.1s ease;
+}
+.games:hover {
+  border: 2px solid #f948b2;
+  color: #f948b2;
+}
+/* more games section end */
 
 /* online games section end */
 
