@@ -22,6 +22,22 @@ body {
   font-size: 1.2rem;
   line-height: 30px;
 }
+.pink-btn {
+  padding: 1.2rem 2.4rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 46px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  transition: 0.3s ease;
+}
+.blue-btn {
+  background: #4ec5f7;
+}
+.pink-btn:hover {
+  color: #534c64;
+}
 /* navbar section */
 .nav-container {
   display: flex;
@@ -119,24 +135,35 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 10px;
-}
-.pink-btn {
-  padding: 1.2rem 2.4rem;
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 600;
-  border: none;
-  border-radius: 46px;
-  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
-  transition: 0.3s ease;
-}
-.blue-btn {
-  background: #4ec5f7;
-}
-.pink-btn:hover {
-  color: #534c64;
+  margin-top: 40px;
 }
 /* banner section end */
+
+/* we are gamer */
+.we-are-gamer {
+  display: flex;
+  margin: 20px 170px 20px 120px;
+  align-items: center;
+  justify-content: center;
+}
+.gamer-right {
+  text-align: right;
+}
+.gamer-right .section-desc {
+  margin: 10px;
+}
+.gamer-h3 {
+  color: #534c64;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 10px auto;
+}
+.gamer-h2 {
+  color: #534c64;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+/* we are gamer end */
 
 /* online games section */
 .online-games-container {
@@ -252,7 +279,6 @@ footer {
   gap: 15px;
   justify-content: center;
   padding: 30px;
-  cursor: pointer;
 }
 .footer-items .footer-item {
   display: flex;
@@ -270,6 +296,8 @@ footer {
   justify-content: center;
   gap: 30px;
   padding: 30px;
+}
+.social-container img {
   cursor: pointer;
 }
 .some-links {
@@ -388,6 +416,22 @@ footer {
     width: 400px;
     margin: 0 auto;
   }
+  .we-are-gamer {
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .gamer-left img {
+    max-width: 400px;
+  }
+  .gamer-right {
+    text-align: center;
+  }
+  .gamer-h2,
+  .gamer-h3 {
+    display: none;
+  }
 }
 /* responsive styles for mobile end */
 
@@ -434,6 +478,18 @@ footer {
   .game-icon {
     width: 46px;
     height: 46px;
+  }
+  .we-are-gamer {
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .gamer-left img {
+    max-width: 400px;
+  }
+  .gamer-h2,
+  .gamer-h3 {
+    display: none;
   }
 }
 /* responsive styles for tablet end */
